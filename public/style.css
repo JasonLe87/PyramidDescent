@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.column {
+  margin: 20px 20px 20px 20px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.target {
+  max-width: 35px;
+}
