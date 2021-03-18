@@ -39,7 +39,7 @@ function App() {
     j.left = n
     j.right =o
 
-    const style = {width: "25px", textAlign: "center"}
+    const style = {width: "25px", textAlign: "center", fontSize: "large", border: "none", cursor: "pointer"}
 
 return (
     <div className="App">
